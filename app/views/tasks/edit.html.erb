@@ -1,0 +1,20 @@
+<%= form_for @task do |f| %>
+  <%= f.label :name, "Enter a task" %>
+  <%= f.text_field :name %>
+
+  <%= f.label :details, "Enter an details" %>
+  <%= f.text_field :details %>
+
+  <%= f.label :completed, "Is it completed? y/n" %>
+  <%= f.text_field :completed %>
+
+  <%= f.submit %>
+<% end %>
+
+<!-- <label for="name">Name: </label>
+<input type="text" name="restaurant[name]" id="name"
+       value="La Tour d'Argent"> -->
+<!--
+
+
+
